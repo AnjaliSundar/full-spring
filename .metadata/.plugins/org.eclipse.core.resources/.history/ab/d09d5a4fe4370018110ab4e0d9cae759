@@ -1,0 +1,13 @@
+package bootsample.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SpringRestController {
+		// TODO Auto-generated method stub
+		public String Hello() {
+			return "Hello Spring World!!!!";
+		}
+
+	}
+
